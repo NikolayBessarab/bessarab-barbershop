@@ -137,3 +137,115 @@ h2 {
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
 }
+
+
+.catalog-content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	outline: solid rgba(0, 128, 0, 1) 3px;
+	background: rgba(0, 128, 0, 0.2);
+}
+
+.catalog-content-left {
+	float: left;
+	width: 210px;
+	min-height: 570px;
+	margin-top: 125px;
+	outline: solid rgba(128, 0, 0, 1) 3px;
+	background: rgba(128, 0, 0, 0.2);
+}
+
+.catalog-content-left fieldset:first-child {
+	min-height: 240px;
+	margin-bottom: 55px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.catalog-content-left fieldset:last-child {
+	min-height: 145px;
+	margin-bottom: 55px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.catalog-content-right {
+	float: right;
+	width: 700px;
+	min-height: 590px;
+	margin-top: 125px;
+	outline: solid rgba(128, 0, 0, 1) 3px;
+	background: rgba(128, 0, 0, 0.2);	
+}
+
+.catalog-content-item {
+	float: left;
+	width: 215px;
+	min-height: 285px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.catalog-content-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.catalog-content-pages {
+	float: left;
+	width: 150px;
+	min-height: 40px;
+	margin-top: 28px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.item-content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	outline: solid rgba(0, 128, 0, 1) 3px;
+	background: rgba(0, 128, 0, 0.2);
+}
+
+.item-content-left {
+	float: left;
+	width: 460px;
+	margin-top: 125px;
+	min-height: 670px;
+	outline: solid rgba(128, 0, 0, 1) 3px;
+	background: rgba(128, 0, 0, 0.2);
+}
+
+.item-content-right {
+	float: right;
+	width: 395px;
+	margin-top: 125px;
+	min-height: 670px;
+	outline: solid rgba(128, 0, 0, 1) 3px;
+	background: rgba(128, 0, 0, 0.2);
+}
+
+.item-content-about {
+	min-height: 185px;
+	margin-top: 25px;
+	margin-bottom: 43px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.item-action {
+	width: 188px;
+	min-height: 40px;
+	margin-bottom: 65px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
+
+.item-content-name {
+	min-height: 312px;
+	outline: solid rgba(128, 128, 0, 1) 3px;
+	background: rgba(128, 128, 0, 0.2);
+}
