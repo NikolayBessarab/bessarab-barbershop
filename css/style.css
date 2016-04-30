@@ -202,41 +202,58 @@ h2 {
 	display: inline-block;
 }
 
-.item-content {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;
-	outline: solid rgba(0, 128, 0, 1) 3px;
-	background: rgba(0, 128, 0, 0.2);
+.item-content-title {
+	margin-top: -10px;
+}
+
+.item-content-breadcrumbs {
+	margin-top: -5px;
+}
+
+.item-content-breadcrumbs li {
+	display: inline-block;
 }
 
 .item-content-left {
 	float: left;
 	width: 460px;
-	margin-top: 125px;
-	min-height: 670px;
+	margin-top: 40px;
+	margin-bottom: -20px;
 	outline: solid rgba(128, 0, 0, 1) 3px;
 	background: rgba(128, 0, 0, 0.2);
+}
+
+.item-content-slider {
+	margin: 0;
+	padding: 0;
+}
+
+.slider-small {
+	margin-top: 12px;
 }
 
 .item-content-right {
 	float: right;
 	width: 395px;
-	margin-top: 125px;
-	min-height: 670px;
+	margin-top: 40px;
 	outline: solid rgba(128, 0, 0, 1) 3px;
 	background: rgba(128, 0, 0, 0.2);
 }
 
 .item-content-about {
 	min-height: 185px;
-	margin-top: 25px;
-	margin-bottom: 43px;
+	margin-top: 20px;
+	margin-bottom: 38px;
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
 }
 
-.item-action {
+.about-availability {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.catalog-action {
 	width: 188px;
 	min-height: 40px;
 	margin-left: auto;
@@ -247,8 +264,19 @@ h2 {
 	background: rgba(128, 128, 0, 0.2);
 }
 
-.item-content-name {
-	min-height: 312px;
+.item-action {
+	width: 188px;
+	min-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
+}
+
+.item-content-name {
+	margin-top: 70px;
+}
+
+.item-list {
+		margin-top: 25px;
 }
