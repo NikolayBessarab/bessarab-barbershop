@@ -1,4 +1,6 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-size: 14px;
 	line-height: 24px;
 	color: 000;
@@ -43,6 +45,10 @@ h2 {
 	min-height: 70px;
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
+}
+
+.main-navigation li {
+	display: inline-block;
 }
 
 .user-block {
@@ -138,50 +144,39 @@ h2 {
 	background: rgba(128, 128, 0, 0.2);
 }
 
+.catalog-content-title {
+	margin-top: -10px;
+}
 
-.catalog-content {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;
-	outline: solid rgba(0, 128, 0, 1) 3px;
-	background: rgba(0, 128, 0, 0.2);
+.catalog-content-breadcrumbs {
+	margin-top: -5px;
+}
+
+.catalog-content-breadcrumbs li {
+	display: inline-block;
 }
 
 .catalog-content-left {
 	float: left;
 	width: 210px;
 	min-height: 570px;
-	margin-top: 125px;
+	margin-top: 40px;
 	outline: solid rgba(128, 0, 0, 1) 3px;
 	background: rgba(128, 0, 0, 0.2);
-}
-
-.catalog-content-left fieldset:first-child {
-	min-height: 240px;
-	margin-bottom: 55px;
-	outline: solid rgba(128, 128, 0, 1) 3px;
-	background: rgba(128, 128, 0, 0.2);
-}
-
-.catalog-content-left fieldset:last-child {
-	min-height: 145px;
-	margin-bottom: 55px;
-	outline: solid rgba(128, 128, 0, 1) 3px;
-	background: rgba(128, 128, 0, 0.2);
 }
 
 .catalog-content-right {
 	float: right;
 	width: 700px;
 	min-height: 590px;
-	margin-top: 125px;
+	margin-top: 40px;
 	outline: solid rgba(128, 0, 0, 1) 3px;
 	background: rgba(128, 0, 0, 0.2);	
 }
 
 .catalog-content-item {
 	float: left;
-	width: 215px;
+	width: 216px;
 	min-height: 285px;
 	margin-right: 25px;
 	margin-bottom: 20px;
@@ -198,8 +193,13 @@ h2 {
 	width: 150px;
 	min-height: 40px;
 	margin-top: 28px;
+	margin-bottom: -14px;
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
+}
+
+.catalog-content-pages li {
+	display: inline-block;
 }
 
 .item-content {
@@ -239,7 +239,10 @@ h2 {
 .item-action {
 	width: 188px;
 	min-height: 40px;
-	margin-bottom: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	outline: solid rgba(128, 128, 0, 1) 3px;
 	background: rgba(128, 128, 0, 0.2);
 }
